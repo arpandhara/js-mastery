@@ -4,7 +4,7 @@
 // What is string ?
 // string is basically a collection of numbers,letters,special characters
 
-// in simple bhasas " in do qoutation ke bich mai kuch bhi likh do ga to wo string ban jata hai"
+// in simple bhasas "in do qoutation ke bich mai kuch bhi likh do ga to wo string ban jata hai"
 
 let firstName = "arpan";
 
