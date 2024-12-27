@@ -27,3 +27,6 @@ console.log(num); // at the end when the for loop gets false then it gets printe
 let num1 = 10;
 let total = (num1*(num1+1))/2
 console.log(total);
+
+
+

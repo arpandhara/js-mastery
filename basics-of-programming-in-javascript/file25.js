@@ -23,9 +23,11 @@ console.log(fruits.push("banana") , fruits);
 // now the array is(initial) [ 'apple', 'orange', 'mango', 'grapes', 'banana' ]
 
 let poppedFruit = fruits.pop() // popped the last element which is "banana"  here and returned it and we stored it in the a variable
-console.log(fruits) // noe we are printing the modified array 
+console.log(fruits) // noe we are printing the modified array [ 'apple', 'orange', 'mango', 'grapes' ]
 
-// Note : pop func not only removes the item from the array but also returns it 
+
+
+// Note : pop func not only removes the item from the array but also returns it in the console and we can store it in a variable also
 
 
 

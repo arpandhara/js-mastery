@@ -15,10 +15,11 @@ console.log(typeof fruit);// object
 // now id we want to know that an array is actually an array  or not , then we use this 
 
 
-console.log(Array.isArray(fruit))// true 
+console.log(Array.isArray(fruit))// true , this will return true if the value is an array
 
 
-console.log(fruit[0]);// if we want only the apple item to get printed then we could target it by its index 
+
+console.log(fruit[3]);// if we want only the apple item to get printed then we could target it by its index 
 
 // how to create arrays 
 
@@ -31,4 +32,5 @@ console.log(fruit[0]);// if we want only the apple item to get printed then we c
 
 
 // just like we used to give indexes to a string we also give index to an array 
+
 
