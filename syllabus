@@ -38,18 +38,18 @@ use const for creating arrays✅
 While loop in array✅
 For of loop✅
 For in loop✅
-Array destructuring
+Array destructuring✅
 
 Objects in JavaScript
 
-Intro to objects
-Dot vs Bracket Notation
-Iterate objects
-Computed properties
-Spread operator in objects
-Object Destructuring
-Objects inside Array
-Nested Destructuring
+Intro to objects✅
+Dot vs Bracket Notation✅
+Iterate objects✅
+Computed properties✅
+Spread operator in objects✅
+Object Destructuring✅
+Objects inside Array✅
+Nested Destructuring✅
 
 Functions in JavaScript
 
