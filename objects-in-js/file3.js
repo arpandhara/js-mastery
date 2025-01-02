@@ -7,9 +7,9 @@ const person = {
     city: "durgapur",
     hobbies: ["coding", "reading", "playing games"]
 }
-// for (let key in person) {
-//     console.log(key , person[key]); // key gives the key name and the preson key give the key value 
-// }
+for (let key in person) {
+    console.log(key , person[key]); // key gives the key name and the preson key give the key value 
+}
 
 
 // object.key 

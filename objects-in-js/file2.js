@@ -1,4 +1,4 @@
-// difference between do and bracket notation 
+// difference between dot and bracket notation 
 
 const key = "email";
 const person = {
