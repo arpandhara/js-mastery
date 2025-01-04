@@ -8,3 +8,7 @@ console.log(evenNo(3));
 
 const sumOfThreeNos = (a,b,c) => (a+b+c );
 console.log(sumOfThreeNos(5,6,7));
+
+
+
+const addTwoNo = (a,b) => a+b ;

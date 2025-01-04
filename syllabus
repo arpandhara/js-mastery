@@ -68,22 +68,22 @@ Functions returning Functions✅
 
 Very Important Array Methods
 
-Foreach method
-Map method
-Filter
-Reduce
-Sort
-Find
-Every
-Some
-Fill method
-Splice method
+Foreach method✅
+Map method✅
+Filter method ✅
+Reduce✅
+Sort✅
+Find✅
+Every✅
+Some✅
+Fill method✅
+Splice method✅
 
 
 More useful things 
 
-Iterables
-Sets
+Iterables✅
+Sets✅
 Maps
 Object.assign
 Optional chaining

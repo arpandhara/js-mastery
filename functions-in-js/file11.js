@@ -5,7 +5,7 @@ function myfunc2(){
 }
 
 function myfunc(callback) {
-    callback(); // here we are calling the function myfunc2 inside the func
+    callback();// here we are calling the function myfunc2 inside the func
     console.log("helloworld");
 }
-myfunc(myfunc2);
+myfunc(myfunc2());

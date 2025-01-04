@@ -26,3 +26,4 @@ const helloworld2 = () => console.log("hello world");
 
 // like that var is also hoisted 
 
+

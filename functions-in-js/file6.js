@@ -18,4 +18,4 @@ const myApp = () => {
     myFunc();
 }
 
-myApp()
+myApp();
