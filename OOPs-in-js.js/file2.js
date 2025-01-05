@@ -1,1 +1,3 @@
-// 
+// window
+
+console.log(window);
