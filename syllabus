@@ -84,16 +84,16 @@ More useful things
 
 Iterables✅
 Sets✅
-Maps
-Object.assign
-Optional chaining
+Maps✅
+Object.assign✅
+Optional chaining✅
 
 
 Object Oriented JavaScript / Prototypal Inheritance
 Methods
 
-This keyword, Window object
-Call , apply and bind method
+This keyword, Window object✅
+Call , apply and bind method✅
 Some warnings
 This inside arrow functions
 Short syntax for methods

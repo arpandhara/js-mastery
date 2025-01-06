@@ -4,7 +4,7 @@ const numbers = [5,6,8,2,1,30,20];
 console.log(numbers.sort((a,b) => a-b)); // this is if we wanna keep it in ascending order 
 console.log(numbers.sort((a,b) => b-a)); // this is if we wanna keep it in descending order 
 
-// console.log(numbers.sort());
+console.log(numbers.sort());
 
 const userNames = ["harshit" , "soumo" , "arpan" , "rahul"];
 console.log(userNames.sort());

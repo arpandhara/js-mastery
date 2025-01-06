@@ -12,9 +12,9 @@
 
 const numbers = [1,2,3]; // this is an array 
 
-const newnumbers = new Set([1,2,3,4]); //this is an array 
+const newnumbers = new Set([1,2,3,4,4]); //this is an array 
 console.log(newnumbers);
-
+console.log(newnumbers.has(2));
 // what is commenly used 
 
 const anotherSet = new Set();

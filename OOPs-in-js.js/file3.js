@@ -34,3 +34,13 @@ func()
 
 const myfunc = user1.about; // huma asa nahi karna asa karna se pura function uth ke ajata hai naki call hota hia . ab yaha call nahi ho rha to ye this mai user1 ko nahi bhejaga as a object 
 myfunc(); //jab hum yaha pe func ko call kar raha hai then yaha pai ye window ko object ke taur pai bhej deta hai this mai and this it gives undefined 
+
+function userFoods(food1 , food2){
+    console.log(`this person named ${this.firstName} , likes ${food1} and ${food2}`)
+};
+
+const users1 = {
+    firstName : "arpan"
+};
+
+userFoods.call(users1 , "luchi" , "icecream");
