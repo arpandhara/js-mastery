@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script src="file01.js" async></script> this is the 3rd way and then when it will reach this line beacuse of the async attribute then it will simultaneously parse the html file and load the js file . seems fine but there is a problem which is the html file will be parsed till the js file gets  loaded once the js file gets loaded it will start executing the file and the parsing will stop in the mid way -->
+    <!-- <script src="file01.js"></script> we should no use the script tag here as when the browser will start parsing the html file it will parse till this line and then the parsing will stop and it will move to the js file and then it will start executing that and there we might ave targeted the html elements there which has not yet been parsed thus it will give error -->
+
+
+    <!-- <script src="file01.js" defer></script> -->
+    <!-- <script src="file02.js" defer></script> -->
+    <!-- <script src="file03.js" defer></script> -->
+     <script type="module" src="file04.js" defer></script>
+
+    <title>My Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="">Todo</a></li>
+                <li class="nav-item"><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">
+                Manage your tasks <span style="display: none">Hello</span>
+            </h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+
+    <section class="section-todo container">
+        <h2>Your plan for today ?</h2>
+        <!-- todo form  -->
+        <form class="form-todo">
+            <input type="text" name="" id="" placeholder="Add Todo" />
+            <input type="submit" value="Add Todo" class="btn" />
+        </form>
+
+        <ul class="todo-list">
+            <li>
+                <span class="text">Do this do that</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section-signup container">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" />
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-group">
+                <label for="about">About Yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn">Submit</button>
+        </form>
+    </section>
+    <!-- <script src="file01.js"></script> here 1st the html will file be parsed then the js file will be parsed and then it will be executed , which seems fine but it has a problem it takes much time to load   -->
+</body>
+
+</html>
