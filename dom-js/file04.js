@@ -11,3 +11,4 @@ console.log(mainHeading.textContent); // now we are viewing the changed text con
 // but if i want to see only the text shown in the website
 
 console.log(mainHeading.innerText) // it will only give the text shown actally on the website 
+// console.log(mainHeading.innerHTML);

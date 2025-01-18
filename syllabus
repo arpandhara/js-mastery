@@ -111,33 +111,33 @@ Example using class keyword✅
 Super keyword✅
 Method overriding✅
 Getters and setters✅
-Static methods and properties✅
+Static methods and propertiesc✅
 
 How JavaScript Works
 
-Global Execution context
-This and window in global execution context
-Hoisting
-Are let and const are hoisted ? What is a reference Error ? 
-Function execution context
-Scope chain and lexical environment
-Closures
-Intro to closures
-Closure example 1
-Closure Example 2
-Closure Example 3
+Global Execution context✅
+This and window in global execution context✅
+Hoisting✅
+Are let and const are hoisted ? What is a reference Error ? ✅
+Function execution context✅
+Scope chain and lexical environment✅
+Closures✅
+Intro to closures✅
+Closure example 1✅
+Closure Example 2✅
+Closure Example 3✅
 
 DOM Tutorial
 
-HTML and CSS Crash course ( Around 30-40 minutes)
-Async vs defer
-Select elements using id
-querySelector
-textContent & innerText
-Change the styles of elements using js
-Get and set attributes
-Select multiple elements and loop through them
-innerHTML
+HTML and CSS Crash course ( Around 30-40 minutes)✅
+Async vs defer✅
+Select elements using id✅
+querySelector✅
+textContent & innerText✅
+Change the styles of elements using js✅
+Get and set attributes✅
+Select multiple elements and loop through them✅
+innerHTML✅
 Deeply understand dom tree, root node , element nodes, text nodes
 classList
 Add new elements to page
