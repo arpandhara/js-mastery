@@ -10,5 +10,3 @@ console.log(htmlElementNode.childNodes);
 // children
 // htmlElementNode.parentNode
 
-
-
